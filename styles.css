@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+#profession {
+    border: 1px solid white;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 58px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px 0;
+    margin-left: 58px;
+    padding: 10px 20px;
+    height: 20px;
+    width: 440px;
+    text-align: justify;
+    font-size: small;
+    font-weight: 400;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    margin-left: 58px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+p{
+    height: 29px;
+    width: 378px;
+    margin-left: 58px;
+    margin-top: 60px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.www {
+    display: inline-block;
+    margin: 30px 10px;
+    margin-left: 58px;
+    font-size: small;
+}
+
+#nametake, #professiontake, #agetake {
+    box-sizing: border-box;
+    width: 400px;
+    height: 35px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#adduser{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+

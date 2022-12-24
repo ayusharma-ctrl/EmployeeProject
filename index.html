@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Employee Project</title>
+
+    <!-- Import font from google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <p>Filter ui cards via their profession</p>
+    </div>
+
+    <div>
+        <select name="selectProfession" id="profession">
+            <option disabled selected>Profession</option>
+            <option>Developer</option>
+            <option>Admin</option>
+        </select>
+    </div>
+<!-- This division is to store the cards data -->
+    <div>
+    
+    </div>
+
+    <div>
+        <button> Filter </button>
+    </div>
+
+    <div>
+        <p>Add a new user</p>
+    </div>
+
+    <div class="www">
+        <label for="name">Enter Name</label> <br> <br>
+        <input type="text" name="name" id="nametake">
+    </div>
+    <div class="www">
+        <label for="profession">Enter Profession</label> <br> <br>
+        <input type="text" name="profession" id="professiontake">
+    </div>
+    <div class="www">
+        <label for="age">Enter Age</label> <br> <br>
+        <input type="number" name="age" id="agetake">
+    </div>
+
+    <div>
+        <button id="adduser"> Add User </button>
+    </div>
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
